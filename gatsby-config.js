@@ -3,74 +3,98 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Richard Timpson',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Richard Timpson | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software Engineer @ Salesforce. Based in Salt Lake City, Utah`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
+
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/richt3211`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/richard-w-timpson/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I am a Software Engineer with a passion for understanding the first principles of Computer Science, Data Science, Software Engineering, Machine Learning, and how they translate to building useful technology products that have a positive impact on society and our broader culture. I have several years of experience in Software Engineering, with skills ranging from Infrastructure and DevOps engineering to Front-End Web Development. My current interests are in Deep Learning and its application to Artificially Intelligent Music technology products.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Modeling Expressive Musical Performance with Transformers',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+          'An Undergraduate Senior Research Thesis at the University of Utah. Project focused on improving Artificially Intelligent piano performance systems.',
+        link: 'https://github.com/richt3211/thesis-paper/blob/master/thesis-final.pdf',
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Salesforce',
+        description: 'Software Engineer, Jan 2021 - Present',
+        link: 'https://www.linkedin.com/in/richard-w-timpson/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Route',
+        description: 'Software Engineer, Sep 2020 - Nov 2020',
+        link: 'https://www.linkedin.com/in/richard-w-timpson/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Salesforce',
+        description: 'Software Engineer Intern, May 2020 - August 2020',
+        link: 'https://www.linkedin.com/in/richard-w-timpson/',
+      },
+      {
+        name: 'SunHomes.io',
+        description: 'Data Scientist & Software Engineer, August 2019 - Sep 2020',
+        link: 'https://www.linkedin.com/in/richard-w-timpson/',
+      },
+      {
+        name: '3M',
+        description: 'Software Engineer Intern, May 2019 - August 2019',
+        link: 'https://www.linkedin.com/in/richard-w-timpson/',
+      },
+      {
+        name: 'PlusOne Company',
+        description: 'Software Engineer, Aug 2018 - May 2019',
+        link: 'https://www.linkedin.com/in/richard-w-timpson/',
+      },
+      {
+        name: 'TrueTake Media',
+        description: 'Web Developer, Nov 2017 - May 2018',
+        link: 'https://www.linkedin.com/in/richard-w-timpson/',
+      },
+      {
+        name: 'PlusOne Company',
+        description: 'QA Engineer Intern, May 2017 - Aug 2018',
+        link: 'https://www.linkedin.com/in/richard-w-timpson/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Languages',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Java, Python, C#, JavaScript (TypeScript), Golang, PHP, SQL, HTML, SCSS',
+      },
+      {
+        name: 'Frameworks',
+        description:
+          'Pytorch, scikit-learn, Spring, Angular, React, Node, .NET, Laravel',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'PostgresSQL, MongoDB, MySQL',
       },
       {
-        name: 'Other',
+        name: 'Infrastrucure/DevOps',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Kubernetes, Docker, Amazon Web Services (AWS), CI/CD, Helm, Terraform'
       },
+      {
+        name: "Concepts",
+        description:
+        'Distributed Systems, Machine Learning, REST API, MVC Architecture, Concurrent Programming, Test Driven Development, Statistics and Data Analysis.'
+      }
     ],
   },
   plugins: [
